@@ -1,0 +1,10 @@
+# 15) WAP to display NumPy array attributes.
+
+import numpy as np
+x = np.array([1,2,3,4,5])
+
+print(x.itemsize)
+print(x.ndim)
+print(x.shape)
+print(x.size)
+print(x.dtype)
